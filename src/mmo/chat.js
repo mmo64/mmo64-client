@@ -70,7 +70,6 @@ export const recvChat = (chatmsg) => {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
         node.style.color = "red"
         from.append("(Co-Owner)")
-    }
     } else if (isAdmin) {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
         node.style.color = "blue"
