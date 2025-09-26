@@ -64,8 +64,13 @@ export const recvChat = (chatmsg) => {
     if (sender.includes('#')) from.append(createEmote('discord'))
     if (isAdmin && sender === "#gmanthemarioguy") {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
-        node.style.color = "#8B0000"
+        node.style.color = "darkred"
         from.append("(Creator)")
+     } else if (isAdmin && sender === "#vootrc") {
+        document.getElementById("chatbox").setAttribute("maxlength", 1000)
+        node.style.color = "red"
+        from.append("(Co-Owner)")
+    }
     } else if (isAdmin) {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
         node.style.color = "blue"
