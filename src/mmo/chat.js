@@ -6,7 +6,7 @@ const emoteImg = {
     strange: 'strange.png', kick: 'kick.gif', 
     shock: 'shock.gif', bup: 'bup.jpg', 
     blj: 'blj.gif', discord: 'discord.png',
-    troll: 'trollio.png', tpose:'tpose.png'
+    trollio: 'trollio.png', tpose:'tpose.png'
 }
 
 const createEmote = (type) => {
