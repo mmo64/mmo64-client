@@ -1,3 +1,4 @@
+// TODO fix geo
 // // 0x0D000114
 // const GeoLayout toad_geo_000114[] = {
 //     GEO_NODE_START(),
@@ -52,10 +53,10 @@
 //     GEO_RETURN(),
 // };
 
-import { GEO_ANIMATED_PART, GEO_ASM, GEO_BRANCH, GEO_CLOSE_NODE, GEO_CULLING_RADIUS, GEO_END, GEO_NODE_START, GEO_OPEN_NODE, GEO_SCALE, GEO_SHADOW, GEO_SWITCH_CASE, LAYER_OPAQUE, LAYER_TRANSPARENT } from "../../engine/GeoLayout"
-import { geo_switch_anim_state, geo_update_layer_transparency } from "../../game/ObjectHelpers"
-import { SHADOW_CIRCLE_9_VERTS } from "../../game/Shadow"
-import { toad_seg6_dl_06007710, toad_seg6_dl_06007A48, toad_seg6_dl_06007EB0, toad_seg6_dl_060081F8, toad_seg6_dl_06008520, toad_seg6_dl_06008890, toad_seg6_dl_06008BD8, toad_seg6_us_dl_06007788, toad_seg6_us_dl_06007B00, toad_seg6_us_dl_06008608 } from "./model.inc"
+// import { GEO_ANIMATED_PART, GEO_ASM, GEO_BRANCH, GEO_CLOSE_NODE, GEO_CULLING_RADIUS, GEO_END, GEO_NODE_START, GEO_OPEN_NODE, GEO_SCALE, GEO_SHADOW, GEO_SWITCH_CASE, LAYER_OPAQUE, LAYER_TRANSPARENT } from "../../engine/GeoLayout"
+// import { geo_switch_anim_state, geo_update_layer_transparency } from "../../game/ObjectHelpers"
+// import { SHADOW_CIRCLE_9_VERTS } from "../../game/Shadow"
+// import { toad_seg6_dl_06007710, toad_seg6_dl_06007A48, toad_seg6_dl_06007EB0, toad_seg6_dl_060081F8, toad_seg6_dl_06008520, toad_seg6_dl_06008890, toad_seg6_dl_06008BD8, toad_seg6_us_dl_06007788, toad_seg6_us_dl_06007B00, toad_seg6_us_dl_06008608 } from "./model.inc"
 
 // // 0x0D00027C
 // const GeoLayout toad_geo_00027C[] = {
