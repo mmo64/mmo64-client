@@ -324,7 +324,7 @@ export const toad_seg6_us_dl_06007788 = [
     Gbi.gsDPPipeSync(),
     Gbi.gsDPSetCombineMode(Gbi.G_CC_MODULATERGBFADE, Gbi.G_CC_MODULATERGBFADE),
     Gbi.gsDPSetTile(Gbi.G_IM_FMT_RGBA, Gbi.G_IM_SIZ_16b, 0, 0, Gbi.G_TX_LOADTILE, 0, Gbi.G_TX_WRAP | Gbi.G_TX_NOMIRROR, Gbi.G_TX_NOMASK, Gbi.G_TX_NOLOD, Gbi.G_TX_WRAP | Gbi.G_TX_NOMIRROR, Gbi.G_TX_NOMASK, Gbi.G_TX_NOLOD),
-    Gbi.gsDPSetRenderMode(Gbi.G_RM_CUSTOM_AA_ZB_XLU_SURF, Gbi.G_RM_NOOP2),
+    //Gbi.gsDPSetRenderMode(Gbi.G_RM_CUSTOM_AA_ZB_XLU_SURF, Gbi.G_RM_NOOP2),
     Gbi.gsSPTexture(0xFFFF, 0xFFFF, 0, Gbi.G_TX_RENDERTILE, Gbi.G_ON),
     Gbi.gsDPTileSync(),
     Gbi.gsDPSetTile(Gbi.G_IM_FMT_RGBA, Gbi.G_IM_SIZ_16b, 8, 0, Gbi.G_TX_RENDERTILE, 0, Gbi.G_TX_CLAMP, 5, Gbi.G_TX_NOLOD, Gbi.G_TX_CLAMP, 5, Gbi.G_TX_NOLOD),
@@ -695,7 +695,7 @@ export const toad_seg6_us_dl_06008608 = [
     Gbi.gsDPSetCombineMode(Gbi.G_CC_SHADE, Gbi.G_CC_SHADE),
     Gbi.gsDPSetAlphaCompare(Gbi.G_AC_NONE),
     Gbi.gsDPSetEnvColor(255, 255, 255, 255),
-    Gbi.gsDPSetRenderMode(Gbi.G_RM_AA_ZB_XLU_SURF, Gbi.G_RM_NOOP2),
+    //Gbi.gsDPSetRenderMode(Gbi.G_RM_AA_ZB_XLU_SURF, Gbi.G_RM_NOOP2),
     Gbi.gsSPEndDisplayList(),
 ];
 
