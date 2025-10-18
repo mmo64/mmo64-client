@@ -62,7 +62,7 @@ export const recvChat = (chatmsg) => {
 
     const from = document.createElement('strong')
     if (sender.includes('#')) from.append(createEmote('discord'))
-    if (isAdmin && sender === "#gmanthemarioguy") {
+    if (isAdmin && sender === "#graciethemariogal") {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
         node.style.color = "darkred"
         from.append("(Creator)")
