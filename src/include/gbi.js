@@ -354,6 +354,7 @@ export const G_RM_OPA_SURF2          = 23
 export const G_RM_NOOP2              = 24
 export const G_RM_ZB_OPA_SURF        = 25
 export const G_RM_ZB_OPA_SURF2       = 26
+export const G_RM_CUSTOM_AA_ZB_XLU_SURF  = 27
 
 //G_MOVEWORD types
 export const G_MW_MATRIX = 0x00 /* NOTE: also used by movemem */
