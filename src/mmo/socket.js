@@ -495,7 +495,7 @@ export const sendChat = ({ message }) => {
 
 const redirect_uri = encodeURIComponent(`${url.protocol}//${window.location.host}`)
 
-const discord_client_id = "1411893175077044235"
+const discord_client_id = "1441545001170632706"
 const discordOAuthURL = "https://discord.com/api/oauth2/authorize?client_id=" + discord_client_id + "&redirect_uri=" + redirect_uri + "&response_type=code&scope=identify"
 
 const google_client_id = "1032615971356-gv8dl3e37eralpv6hto7hp7stseo9v9m.apps.googleusercontent.com"
