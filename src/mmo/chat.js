@@ -62,9 +62,9 @@ export const recvChat = (chatmsg) => {
 
     const from = document.createElement('strong')
     if (sender.includes('#')) from.append(createEmote('discord'))
-    if (sender === "#graciethemariogal") {
+    if (sender === "#queenkoopa8500") {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
-        node.style.color = "darkred"
+        node.style.color = "orange"
         from.append("(Creator)")
      } else if (sender === "#vootrc") {
         document.getElementById("chatbox").setAttribute("maxlength", 1000)
