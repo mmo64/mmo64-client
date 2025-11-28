@@ -1,6 +1,6 @@
 # TODO
 
-### Contact me for now - Discord: gmanthemarioguy
+### Contact me for now - Discord: queenkoopa8500
 
 ### Prettier formatting settings:
 "prettier.semi": false,  
